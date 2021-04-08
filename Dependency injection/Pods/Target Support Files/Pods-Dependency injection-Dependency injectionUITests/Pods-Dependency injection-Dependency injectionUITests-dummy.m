@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Dependency_injection_Dependency_injectionUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Dependency_injection_Dependency_injectionUITests
+@end

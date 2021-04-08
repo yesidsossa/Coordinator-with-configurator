@@ -1,0 +1,6 @@
+framework module Pods_Dependency_injection_Dependency_injectionUITests {
+  umbrella header "Pods-Dependency injection-Dependency injectionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
