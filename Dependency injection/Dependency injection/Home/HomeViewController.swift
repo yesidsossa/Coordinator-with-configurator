@@ -9,18 +9,18 @@
 import Foundation
 import UIKit
 
-final class TabBarViewController: BaseViewController {
-    private let tabBarView = TabBarView()
+final class HomeViewController: BaseViewController {
+    private let homeView = HomeView()
 
     // MARK: Properties
-    private var ownPresenter: TabBarPresenterType!{
-        return presenter as? TabBarPresenterType
+    private var ownPresenter: HomePresenterType!{
+        return presenter as? HomePresenterType
     }
 
     override func loadView() {
         super.loadView()
         setupView()
-        title = "TabBar"
+        title = "Home"
     }
 
     override func viewDidLoad() {
@@ -28,8 +28,8 @@ final class TabBarViewController: BaseViewController {
     }
     
     private func setupView() {
-        view.addSubview(tabBarView)
-        tabBarView.anchor(
+        view.addSubview(homeView)
+        homeView.anchor(
             top: view.topAnchor,
             left: view.leftAnchor,
             bottom: view.bottomAnchor,
@@ -38,6 +38,6 @@ final class TabBarViewController: BaseViewController {
     }
 }
 
-extension TabBarViewController: TabBarViewType {
+extension HomeViewController: HomeViewType {
     // TODO: implement view output methods
 }

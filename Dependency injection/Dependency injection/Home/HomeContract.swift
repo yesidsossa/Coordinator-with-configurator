@@ -9,15 +9,15 @@
 import Foundation
 import UIKit
 
-protocol TabBarViewType: BaseView {
+protocol HomeViewType: BaseView {
     // PRESENTER -> VIEW
 }
 
-protocol TabBarPresenterType: BasePresenterProtocol {
+protocol HomePresenterType: BasePresenterProtocol {
     // VIEW -> PRESENTER
-    func bind(withView view: TabBarViewType)
+    func bind(withView view: HomeViewType)
 }
 
-protocol TabBarCoordinatorType: AnyObject {
+protocol HomeCoordinatorType: AnyObject {
     // PRESENTER -> COORDINATOR
 }

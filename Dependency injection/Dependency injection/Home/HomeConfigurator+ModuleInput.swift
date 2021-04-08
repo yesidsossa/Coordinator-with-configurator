@@ -6,8 +6,8 @@
 //  
 //
 
-extension TabBarConfigurator {
+extension HomeConfigurator {
     struct ModuleInput {
-        let coordinator: TabBarCoordinatorType
+        let coordinator: HomeCoordinatorType
     }
 }

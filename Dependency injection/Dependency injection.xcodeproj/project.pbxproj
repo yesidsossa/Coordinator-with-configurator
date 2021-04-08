@@ -27,14 +27,14 @@
 		9195BD68261BCEC60055F754 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD62261BCEC60055F754 /* WelcomeViewController.swift */; };
 		9195BD69261BCEC60055F754 /* WelcomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD63261BCEC60055F754 /* WelcomeConfigurator.swift */; };
 		9195BD6A261BCEC60055F754 /* WelcomeConfigurator+ModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD64261BCEC60055F754 /* WelcomeConfigurator+ModuleInput.swift */; };
-		9195BD77261BD1A60055F754 /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD71261BD1A60055F754 /* TabBarCoordinator.swift */; };
-		9195BD78261BD1A60055F754 /* TabBarContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD72261BD1A60055F754 /* TabBarContract.swift */; };
-		9195BD79261BD1A60055F754 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD73261BD1A60055F754 /* TabBarPresenter.swift */; };
-		9195BD7A261BD1A60055F754 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD74261BD1A60055F754 /* TabBarViewController.swift */; };
-		9195BD7B261BD1A60055F754 /* TabBarConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD75261BD1A60055F754 /* TabBarConfigurator.swift */; };
-		9195BD7C261BD1A60055F754 /* TabBarConfigurator+ModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD76261BD1A60055F754 /* TabBarConfigurator+ModuleInput.swift */; };
+		9195BD77261BD1A60055F754 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD71261BD1A60055F754 /* HomeCoordinator.swift */; };
+		9195BD78261BD1A60055F754 /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD72261BD1A60055F754 /* HomeContract.swift */; };
+		9195BD79261BD1A60055F754 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD73261BD1A60055F754 /* HomePresenter.swift */; };
+		9195BD7A261BD1A60055F754 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD74261BD1A60055F754 /* HomeViewController.swift */; };
+		9195BD7B261BD1A60055F754 /* HomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD75261BD1A60055F754 /* HomeConfigurator.swift */; };
+		9195BD7C261BD1A60055F754 /* HomeConfigurator+ModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD76261BD1A60055F754 /* HomeConfigurator+ModuleInput.swift */; };
 		9195BD87261BEE9D0055F754 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BD86261BEE9D0055F754 /* WelcomeView.swift */; };
-		9195BDF0261EB3950055F754 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BDEF261EB3950055F754 /* TabBarView.swift */; };
+		9195BDF0261EB3950055F754 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BDEF261EB3950055F754 /* HomeView.swift */; };
 		9195BDF5261EC4DF0055F754 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9195BDF4261EC4DF0055F754 /* LoginView.swift */; };
 		91C73111261B953700DD988A /* ApplicationContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C73110261B953700DD988A /* ApplicationContract.swift */; };
 		91C73119261B964A00DD988A /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C73118261B964A00DD988A /* ApplicationCoordinator.swift */; };
@@ -100,14 +100,14 @@
 		9195BD62261BCEC60055F754 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		9195BD63261BCEC60055F754 /* WelcomeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeConfigurator.swift; sourceTree = "<group>"; };
 		9195BD64261BCEC60055F754 /* WelcomeConfigurator+ModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WelcomeConfigurator+ModuleInput.swift"; sourceTree = "<group>"; };
-		9195BD71261BD1A60055F754 /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
-		9195BD72261BD1A60055F754 /* TabBarContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContract.swift; sourceTree = "<group>"; };
-		9195BD73261BD1A60055F754 /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
-		9195BD74261BD1A60055F754 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		9195BD75261BD1A60055F754 /* TabBarConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfigurator.swift; sourceTree = "<group>"; };
-		9195BD76261BD1A60055F754 /* TabBarConfigurator+ModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabBarConfigurator+ModuleInput.swift"; sourceTree = "<group>"; };
+		9195BD71261BD1A60055F754 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		9195BD72261BD1A60055F754 /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		9195BD73261BD1A60055F754 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		9195BD74261BD1A60055F754 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9195BD75261BD1A60055F754 /* HomeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeConfigurator.swift; sourceTree = "<group>"; };
+		9195BD76261BD1A60055F754 /* HomeConfigurator+ModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeConfigurator+ModuleInput.swift"; sourceTree = "<group>"; };
 		9195BD86261BEE9D0055F754 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		9195BDEF261EB3950055F754 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		9195BDEF261EB3950055F754 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9195BDF4261EC4DF0055F754 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		91C73110261B953700DD988A /* ApplicationContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationContract.swift; sourceTree = "<group>"; };
 		91C73118261B964A00DD988A /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
@@ -293,13 +293,13 @@
 		91C7316F261BC52B00DD988A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				9195BD71261BD1A60055F754 /* TabBarCoordinator.swift */,
-				9195BD72261BD1A60055F754 /* TabBarContract.swift */,
-				9195BD73261BD1A60055F754 /* TabBarPresenter.swift */,
-				9195BD74261BD1A60055F754 /* TabBarViewController.swift */,
-				9195BD75261BD1A60055F754 /* TabBarConfigurator.swift */,
-				9195BD76261BD1A60055F754 /* TabBarConfigurator+ModuleInput.swift */,
-				9195BDEF261EB3950055F754 /* TabBarView.swift */,
+				9195BD71261BD1A60055F754 /* HomeCoordinator.swift */,
+				9195BD72261BD1A60055F754 /* HomeContract.swift */,
+				9195BD73261BD1A60055F754 /* HomePresenter.swift */,
+				9195BD74261BD1A60055F754 /* HomeViewController.swift */,
+				9195BD75261BD1A60055F754 /* HomeConfigurator.swift */,
+				9195BD76261BD1A60055F754 /* HomeConfigurator+ModuleInput.swift */,
+				9195BDEF261EB3950055F754 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -529,11 +529,11 @@
 				9195BD31261BCD380055F754 /* LoginPresenter.swift in Sources */,
 				91C73162261BAB1600DD988A /* BaseViewController.swift in Sources */,
 				91C73153261B98AA00DD988A /* MainRouter.swift in Sources */,
-				9195BD7C261BD1A60055F754 /* TabBarConfigurator+ModuleInput.swift in Sources */,
-				9195BD7B261BD1A60055F754 /* TabBarConfigurator.swift in Sources */,
-				9195BD77261BD1A60055F754 /* TabBarCoordinator.swift in Sources */,
+				9195BD7C261BD1A60055F754 /* HomeConfigurator+ModuleInput.swift in Sources */,
+				9195BD7B261BD1A60055F754 /* HomeConfigurator.swift in Sources */,
+				9195BD77261BD1A60055F754 /* HomeCoordinator.swift in Sources */,
 				915912AC25F90DB700AAAA14 /* AppDelegate.swift in Sources */,
-				9195BDF0261EB3950055F754 /* TabBarView.swift in Sources */,
+				9195BDF0261EB3950055F754 /* HomeView.swift in Sources */,
 				91C7311E261B965C00DD988A /* ApplicationPresenter.swift in Sources */,
 				9195BDF5261EC4DF0055F754 /* LoginView.swift in Sources */,
 				9195BD2F261BCD380055F754 /* LoginCoordinator.swift in Sources */,
@@ -547,9 +547,9 @@
 				9195BD30261BCD380055F754 /* LoginContract.swift in Sources */,
 				91C7315D261B9B9E00DD988A /* BasePresenter.swift in Sources */,
 				9195BD65261BCEC60055F754 /* WelcomeCoordinator.swift in Sources */,
-				9195BD78261BD1A60055F754 /* TabBarContract.swift in Sources */,
-				9195BD7A261BD1A60055F754 /* TabBarViewController.swift in Sources */,
-				9195BD79261BD1A60055F754 /* TabBarPresenter.swift in Sources */,
+				9195BD78261BD1A60055F754 /* HomeContract.swift in Sources */,
+				9195BD7A261BD1A60055F754 /* HomeViewController.swift in Sources */,
+				9195BD79261BD1A60055F754 /* HomePresenter.swift in Sources */,
 				9195BD6A261BCEC60055F754 /* WelcomeConfigurator+ModuleInput.swift in Sources */,
 				9195BD66261BCEC60055F754 /* WelcomeContract.swift in Sources */,
 				9195BD87261BEE9D0055F754 /* WelcomeView.swift in Sources */,

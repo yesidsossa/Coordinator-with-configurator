@@ -14,7 +14,7 @@ final class LoginView: UIView {
     let loginButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Make login", for: .normal)
+        button.setTitle("Fake login", for: .normal)
         button.addTarget(nil, action: #selector(addButtonDidTapped(sender:)), for: .touchUpInside)
         return button
     }()

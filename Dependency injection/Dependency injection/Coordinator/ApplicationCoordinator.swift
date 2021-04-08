@@ -42,25 +42,25 @@ final class ApplicationCoordinator: BaseCoordinator {
             self.removeDependency(coordinator)
         }
         coordinator.loginSuccess = { [unowned self] in
-            self.router.setRootModule(self.runTabBarFlow(), hideBar: false)
+            self.router.setRootModule(self.runHomeFlow(), hideBar: false)
         }
 
         return coordinator
     }
 
-    private func runTabBarFlow() -> Presentable {
-        let tabBarCoordinator = fetchOrCreateTabBarCoordinator()
+    private func runHomeFlow() -> Presentable {
+        let tabBarCoordinator = fetchOrCreateHomeCoordinator()
         addDependency(tabBarCoordinator)
         return tabBarCoordinator.start()
     }
 
-    private func fetchOrCreateTabBarCoordinator() -> TabBarCoordinator {
-        return (childCoordinators.first { $0 is TabBarCoordinator } as? TabBarCoordinator)
-            ?? createTabBarCoordinator()
+    private func fetchOrCreateHomeCoordinator() -> HomeCoordinator {
+        return (childCoordinators.first { $0 is HomeCoordinator } as? HomeCoordinator)
+            ?? createHomeCoordinator()
     }
 
-    private func createTabBarCoordinator() -> TabBarCoordinator {
-        let coordinator = TabBarCoordinator(router: router)
+    private func createHomeCoordinator() -> HomeCoordinator {
+        let coordinator = HomeCoordinator(router: router)
         
         coordinator.finishFlow = { [unowned self, weak coordinator] in
             self.removeDependency(coordinator)
@@ -79,7 +79,7 @@ extension ApplicationCoordinator: ApplicationCoordinatorType {
     }
 
     func loginSuccess() {
-        self.router.setRootModule(self.runTabBarFlow(), hideBar: false)
+        self.router.setRootModule(self.runHomeFlow(), hideBar: false)
     }
 }
 

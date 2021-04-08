@@ -8,13 +8,13 @@
 import Foundation
 import UIKit
 
-final class TabBarView: UIView {
+final class HomeView: UIView {
     
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "I am a tabbar"
+        label.text = "Congratulations, now you are at home!"
         return label
     }()
 
